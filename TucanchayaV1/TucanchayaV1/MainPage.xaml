@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:TucanchayaV1"
+             x:Class="TucanchayaV1.MainPage">
+
+    <Grid ColumnSpacing="1" RowSpacing="1">
+        <Grid.RowDefinitions>
+
+            <RowDefinition Height="auto" ></RowDefinition>
+            <RowDefinition Height="auto" ></RowDefinition>
+            <RowDefinition Height="auto" ></RowDefinition>
+            <RowDefinition Height="auto" ></RowDefinition>
+            <RowDefinition Height="auto" ></RowDefinition>
+            <RowDefinition Height="auto" ></RowDefinition>
+            <RowDefinition Height="auto" ></RowDefinition>
+            <RowDefinition Height="auto" ></RowDefinition>
+            <RowDefinition Height="auto" ></RowDefinition>
+            <RowDefinition Height="auto" ></RowDefinition>
+            <RowDefinition Height="auto" ></RowDefinition>
+            <RowDefinition Height="auto" ></RowDefinition>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="2*"></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+
+
+
+        <Label    Style="{StaticResource Titulo}" Text="!TuCanchaYa" ></Label>
+        <Image Source="logo_opt.png" Grid.Row="1"></Image>
+        <Label Text="Ingrese Usuario" Grid.Row="2" ></Label>
+        <Entry x:Name="Email" Grid.Row="3"></Entry>
+        <Label Text="Ingrese Contraseña" Grid.Row="4"></Label>
+        <Entry  x:Name="Usuario" IsPassword="True" Grid.Row="5"></Entry>
+        <Button x:Name="Btningresar"
+            Style="{StaticResource Color}"
+            Text="Ingresar"
+            HorizontalOptions="Center"
+            VerticalOptions="Center"
+            Grid.Row="6">
+        </Button>
+        <Label Style="{StaticResource Centro}" Text="¿No tienes Cuenta de Acceso?" Grid.Row="7" ></Label>
+        <Label Style="{StaticResource Centro}" Text="acercate a nuestras Instalaciones y  adquiere un usuario y contraseña" Grid.Row="8"></Label>
+    </Grid>
+
+</ContentPage>

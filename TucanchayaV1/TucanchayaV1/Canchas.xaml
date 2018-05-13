@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="TucanchayaV1.Canchas"
+             Title="Canchas">
+    <ContentPage.Content>
+        <StackLayout>
+            <Image Source="Cancha.png" HorizontalOptions="Center"></Image>
+            <Label Text="esta es la pagina de las canchas de grama"></Label>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
