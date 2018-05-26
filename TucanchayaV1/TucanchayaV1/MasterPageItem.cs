@@ -6,9 +6,8 @@ namespace TucanchayaV1
 {
     public class MasterPageItem
     {
-        public string Cancha { get; set; }
-        public string Puntos { get; set; }
-        public string Historial { get; set; }
-        public Type Pagina { get; set; }
+        public string Titulo { get; set; }
+        public string Icono { get; set; }
+        public Type TipoPagina { get; set; }
     }
 }

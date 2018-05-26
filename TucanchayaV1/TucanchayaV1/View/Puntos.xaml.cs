@@ -10,9 +10,9 @@ using Xamarin.Forms.Xaml;
 namespace TucanchayaV1.View
 {
 	[XamlCompilation(XamlCompilationOptions.Compile)]
-	public partial class Menu : ContentPage
+	public partial class Puntos : ContentPage
 	{
-		public Menu ()
+		public Puntos ()
 		{
 			InitializeComponent ();
 		}
