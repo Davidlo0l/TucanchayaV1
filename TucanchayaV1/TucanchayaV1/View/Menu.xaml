@@ -10,7 +10,8 @@
             <ListView.ItemsSource>
                 <x:Array Type="{x:Type local:MasterPageItem}">
                     <local:MasterPageItem Titulo="Cancha" Icono="cancha.png" TipoPagina="{x:Type local:Canchas}"></local:MasterPageItem>
-                    <local:MasterPageItem Titulo="Cabhear Puntos" Icono="start.png" TipoPagina="{x:Type local:Pu}"></local:MasterPageItem>
+                    <local:MasterPageItem Titulo="Canjear Puntos" Icono="start.png" TipoPagina="{x:Type local:Puntos}"></local:MasterPageItem>
+                    <local:MasterPageItem Titulo="Reservas" Icono="cancha.png" TipoPagina="{x:Type local:View Chanchas}"></local:MasterPageItem>
                 </x:Array>
             </ListView.ItemsSource>
         </ListView>

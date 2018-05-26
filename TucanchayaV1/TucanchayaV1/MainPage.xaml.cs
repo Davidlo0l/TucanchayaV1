@@ -19,7 +19,7 @@ namespace TucanchayaV1
 
         private  async void Btningresar_Clicked(object sender, EventArgs e)
         {
-            await Navigation.PushModalAsync(new Menu ());
+            await Navigation.PushModalAsync(new View.Menu());
         }
     }
 }
