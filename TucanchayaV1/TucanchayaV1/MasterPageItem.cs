@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace TucanchayaV1
+namespace TucanchayaV1.View
 {
     public class MasterPageItem
     {

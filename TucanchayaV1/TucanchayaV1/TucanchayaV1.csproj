@@ -9,13 +9,28 @@
   </ItemGroup>
 
   <ItemGroup>
-    <EmbeddedResource Update="View\Canchas.xaml">
+    <Compile Update="View\CanchasPages.xaml.cs">
+      <DependentUpon>CanchasPages.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="View\MenuPages.xaml.cs">
+      <DependentUpon>MenuPages.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="View\PuntosPages.xaml.cs">
+      <DependentUpon>PuntosPages.xaml</DependentUpon>
+    </Compile>
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Update="View\CanchasPages.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
-    <EmbeddedResource Update="View\Menu.xaml">
+    <EmbeddedResource Update="View\MenuPages.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
-    <EmbeddedResource Update="View\Puntos.xaml">
+    <EmbeddedResource Update="View\PuntosPages.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="View\ReservasPages.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
   </ItemGroup>
