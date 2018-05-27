@@ -12,7 +12,7 @@
                     <local:MasterPageItem Titulo="Cancha" Icono="cancha.png" TipoPagina="{x:Type local:CanchasPages }"></local:MasterPageItem>
                     <local:MasterPageItem Titulo="Canjear Puntos" Icono="ic_stars.png" TipoPagina="{x:Type local:PuntosPages }"></local:MasterPageItem>
                     <local:MasterPageItem Titulo="Reservas" Icono="ic_check_circle.png" TipoPagina="{x:Type local:ReservasPages}"></local:MasterPageItem>
-                    <local:MasterPageItem Titulo="acerca de TUCANCHAYA " Icono="ic_assignment.png" TipoPagina="{x:Type local:ReservasPages}"></local:MasterPageItem>
+                    <local:MasterPageItem Titulo="acerca de " Icono="ic_assignment.png" TipoPagina="{x:Type local:ReservasPages}"></local:MasterPageItem>
                 </x:Array>
             </ListView.ItemsSource>
         </ListView>
