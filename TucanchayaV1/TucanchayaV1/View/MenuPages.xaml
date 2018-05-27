@@ -9,9 +9,10 @@
         <ListView x:Name="ListView">
             <ListView.ItemsSource>
                 <x:Array Type="{x:Type local:MasterPageItem}">
-                    <local:MasterPageItem Titulo="Cancha" Icono="cancha.png" TipoPagina="{x:Type local:Canchas }"></local:MasterPageItem>
-                    <local:MasterPageItem Titulo="Canjear Puntos" Icono="start.png" TipoPagina="{x:Type local:Pu }"></local:MasterPageItem>
-                    <local:MasterPageItem Titulo="Reservas" Icono="cancha.png" TipoPagina="{x:Type local:View Chanchas}"></local:MasterPageItem>
+                    <local:MasterPageItem Titulo="Cancha" Icono="cancha.png" TipoPagina="{x:Type local:CanchasPages }"></local:MasterPageItem>
+                    <local:MasterPageItem Titulo="Canjear Puntos" Icono="ic_stars.png" TipoPagina="{x:Type local:PuntosPages }"></local:MasterPageItem>
+                    <local:MasterPageItem Titulo="Reservas" Icono="ic_check_circle.png" TipoPagina="{x:Type local:ReservasPages}"></local:MasterPageItem>
+                    <local:MasterPageItem Titulo="acerca de TUCANCHAYA " Icono="ic_assignment.png" TipoPagina="{x:Type local:ReservasPages}"></local:MasterPageItem>
                 </x:Array>
             </ListView.ItemsSource>
         </ListView>
